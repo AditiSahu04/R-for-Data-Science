@@ -1,0 +1,5 @@
+Y<-c(0.53,5.4,1.5,3.33,0.45,0.01,2,4.2,1.99,1.01)
+br<-c(0,2,4,6)
+cut(x=Y,breaks=br)
+lab<-c("low","medium","high")
+cut(x=Y,breaks=br,right=F,include.lowest=T,labels=lab)
